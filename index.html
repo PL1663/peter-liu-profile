@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Peter Liu｜Global Executive｜Finance · Marketing · ESG · Business Development</title>
+  <meta name="description" content="Peter Liu — Global executive with cross-functional expertise in finance, marketing, sustainability, and business development. Experience highlights, media coverage, and publications." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Peter Liu｜Professional Profile" />
+  <meta property="og:description" content="Experience highlights, media coverage, and publications." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://docs.google.com/drawings/d/e/2PACX-1vRuZ0w0DNq_vjwg3rVSlIkOikQr73OR0rAaXDnnk5_M8yU84VmfWm-NZ3Er7ZtMpWfN0I-Rlr3V4ngQ/pub?w=1200&h=1200" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <style>
+    :root{
+      --bg: #0b1220;
+      --panel: rgba(255,255,255,.06);
+      --panel2: rgba(255,255,255,.10);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.70);
+      --muted2: rgba(255,255,255,.55);
+      --border: rgba(255,255,255,.12);
+      --accent: #7dd3fc;
+      --accent2: #a78bfa;
+      --shadow: 0 20px 60px rgba(0,0,0,.45);
+      --radius: 20px;
+      --radius2: 28px;
+      --max: 1120px;
+      --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    [data-theme="light"]{
+      --bg:#f6f7fb;
+      --panel: rgba(0,0,0,.04);
+      --panel2: rgba(0,0,0,.07);
+      --text: rgba(8,12,20,.92);
+      --muted: rgba(8,12,20,.72);
+      --muted2: rgba(8,12,20,.55);
+      --border: rgba(8,12,20,.12);
+      --shadow: 0 20px 60px rgba(0,0,0,.16);
+      --accent: #0369a1;
+      --accent2:#6d28d9;
+      --theme-color:#f6f7fb;
+    }
+    *{ box-sizing:border-box; }
+    html{ scroll-behavior:smooth; }
+    body{
+      margin:0;
+      font-family:var(--font);
+      color:var(--text);
+      background: radial-gradient(1200px 600px at 20% 0%, rgba(125,211,252,.25), transparent 55%),
+                  radial-gradient(900px 500px at 85% 20%, rgba(167,139,250,.22), transparent 60%),
+                  radial-gradient(900px 700px at 50% 100%, rgba(34,197,94,.10), transparent 60%),
+                  var(--bg);
+      min-height:100vh;
+      line-height:1.55;
+    }
+    a{ color:inherit; }
+    .wrap{ max-width:var(--max); margin:0 auto; padding: 28px 20px 64px; }
+    .topbar{
+      position:sticky; top:0; z-index:50;
+      backdrop-filter: blur(14px);
+      background: linear-gradient(to bottom, rgba(11,18,32,.78), rgba(11,18,32,.30));
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    [data-theme="light"] .topbar{
+      background: linear-gradient(to bottom, rgba(246,247,251,.88), rgba(246,247,251,.55));
+      border-bottom: 1px solid rgba(8,12,20,.10);
+    }
+    .topbar-inner{
+      max-width:var(--max); margin:0 auto;
+      display:flex; align-items:center; justify-content:space-between;
+      gap:12px; padding: 12px 20px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:10px; text-decoration:none;
+      font-weight:700; letter-spacing:.2px;
+    }
+    .dot{
+      width:12px; height:12px; border-radius:999px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 0 6px rgba(125,211,252,.12);
+    }
+    .nav{
+      display:flex; flex-wrap:wrap; gap:10px;
+      align-items:center; justify-content:flex-end;
+    }
+    .nav a{
+      text-decoration:none;
+      font-size:14px;
+      color:var(--muted);
+      padding: 8px 10px;
+      border-radius: 999px;
+      border:1px solid transparent;
+    }
+    .nav a:hover{ color:var(--text); border-color:var(--border); background:var(--panel); }
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:10px;
+      border:1px solid var(--border);
+      background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.18));
+      color:var(--text);
+      padding: 10px 14px;
+      border-radius: 999px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow: 0 10px 30px rgba(0,0,0,.18);
+      cursor:pointer;
+      user-select:none;
+    }
+    .btn:hover{ transform: translateY(-1px); }
+    .btn:active{ transform: translateY(0); }
+    .btn.secondary{
+      background: var(--panel);
+      box-shadow:none;
+      font-weight:600;
+    }
+    .btn.small{ padding: 8px 10px; font-size: 13px; }
+    .hero{
+      margin-top: 22px;
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 18px;
+      align-items:stretch;
+    }
+    @media (max-width: 900px){
+      .hero{ grid-template-columns: 1fr; }
+    }
+    .card{
+      border: 1px solid var(--border);
+      background: var(--panel);
+      border-radius: var(--radius2);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .hero-left{
+      padding: 26px;
+      position:relative;
+      overflow:hidden;
+    }
+    .hero-left:before{
+      content:"";
+      position:absolute; inset:-80px;
+      background: radial-gradient(500px 280px at 20% 10%, rgba(125,211,252,.22), transparent 55%),
+                  radial-gradient(550px 320px at 70% 20%, rgba(167,139,250,.18), transparent 55%),
+                  radial-gradient(500px 300px at 40% 80%, rgba(34,197,94,.12), transparent 55%);
+      filter: blur(10px);
+      opacity:.9;
+      pointer-events:none;
+    }
+    .hero-left > *{ position:relative; }
+    .kicker{
+      display:inline-flex; align-items:center; gap:10px;
+      font-size:13px; color: var(--muted);
+      border:1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: rgba(255,255,255,.04);
+    }
+    .kicker .pill{
+      font-weight:700;
+      color: var(--text);
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(125,211,252,.22), rgba(167,139,250,.22));
+      border: 1px solid rgba(255,255,255,.10);
+    }
+    h1{
+      margin: 14px 0 8px;
+      font-size: clamp(30px, 3.6vw, 44px);
+      line-height:1.15;
+      letter-spacing:-.6px;
+    }
+    .subtitle{
+      margin:0;
+      color:var(--muted);
+      font-size: 16px;
+      max-width: 56ch;
+    }
+    .hero-actions{
+      display:flex;
+      gap:10px;
+      margin-top: 16px;
+      flex-wrap:wrap;
+    }
+    .meta-grid{
+      margin-top: 18px;
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    @media (max-width: 600px){
+      .meta-grid{ grid-template-columns: 1fr; }
+    }
+    .mini{
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.04);
+      border-radius: 16px;
+      padding: 12px;
+    }
+    .mini .label{ font-size:12px; color: var(--muted2); }
+    .mini .value{ font-weight:700; margin-top:4px; }
+    .photo{
+      height:100%;
+      display:flex;
+      flex-direction:column;
+    }
+    .photo-top{
+      position:relative;
+      padding: 18px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), transparent);
+    }
+    .avatar{
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      border-radius: 18px;
+      overflow:hidden;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.04);
+      box-shadow: 0 12px 40px rgba(0,0,0,.22);
+    }
+    .avatar img{
+      width:100%; height:100%;
+      object-fit: cover;
+      display:block;
+    }
+    .photo-bottom{
+      padding: 16px 18px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .tags{
+      display:flex; flex-wrap:wrap; gap:8px;
+    }
+    .tag{
+      font-size: 12px;
+      color: var(--muted);
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.04);
+      white-space: nowrap;
+    }
+
+    section{ margin-top: 18px; }
+    .section-head{
+      display:flex; align-items:flex-end; justify-content:space-between; gap:12px;
+      margin: 26px 0 12px;
+    }
+    .section-head h2{
+      margin:0;
+      font-size: 20px;
+      letter-spacing:-.2px;
+    }
+    .section-head p{
+      margin:0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    @media (max-width: 900px){
+      .grid{ grid-template-columns: 1fr; }
+    }
+    .item{
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.04);
+      border-radius: var(--radius);
+      padding: 16px;
+    }
+    .item h3{
+      margin:0 0 4px;
+      font-size: 16px;
+    }
+    .item .meta{
+      display:flex; gap:10px; flex-wrap:wrap;
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .item .meta span{
+      display:inline-flex; align-items:center; gap:6px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.03);
+    }
+    .item p{ margin:0; color: var(--muted); font-size: 14px; }
+    .item a.link{
+      display:inline-flex; margin-top: 10px;
+      font-weight:600;
+      text-decoration:none;
+      color: var(--text);
+      gap:8px;
+      align-items:center;
+    }
+    .item a.link:hover{ text-decoration: underline; }
+
+    .toolbar{
+      display:flex; gap:10px; flex-wrap:wrap;
+      align-items:center; justify-content:space-between;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.04);
+      margin-bottom: 12px;
+    }
+    .toolbar .left{
+      display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+    }
+    .input{
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 999px;
+      min-width: 220px;
+      outline:none;
+    }
+    .input::placeholder{ color: var(--muted2); }
+    .select{
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 999px;
+      outline:none;
+    }
+
+    footer{
+      margin-top: 30px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted2);
+      font-size: 13px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .sr-only{
+      position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden;
+      clip:rect(0,0,0,0); white-space:nowrap; border:0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar" role="banner">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Peter Liu</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#articles">News / Articles</a>
+        <a href="#contact">Contact</a>
+        <button id="themeBtn" class="btn small secondary" type="button" aria-pressed="false" title="Toggle theme">
+          <span aria-hidden="true">🌓</span><span>Theme</span>
+        </button>
+      </nav>
+    </div>
+  </div>
+
+  <main id="top" class="wrap">
+    <!-- HERO -->
+    <div class="hero">
+      <section class="card hero-left" aria-label="Introduction">
+        <div class="kicker">
+          <span class="pill">Global Executive</span>
+          <span>Finance · Marketing · Sustainability · Business Development</span>
+        </div>
+
+        <h1>Build sustainable growth.<br/>Create long-term stakeholder value.</h1>
+
+        <p class="subtitle">
+          Global executive with cross-functional expertise in finance, marketing, sustainability, and business development.
+          Proven track record in driving capital growth, strengthening brand leadership, advancing ESG strategies, and expanding international markets.
+          Skilled at integrating strategies across functions to deliver sustainable growth and long-term stakeholder value.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#articles">View publications</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/peter-liu-9a05813b" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+
+        <div class="meta-grid" aria-label="Highlights">
+          <div class="mini">
+            <div class="label">Focus</div>
+            <div class="value">Strategy & Execution</div>
+          </div>
+          <div class="mini">
+            <div class="label">Strength</div>
+            <div class="value">Cross-functional leadership</div>
+          </div>
+          <div class="mini">
+            <div class="label">Outcome</div>
+            <div class="value">Sustainable growth</div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="card photo" aria-label="Profile photo and quick tags">
+        <div class="photo-top">
+          <div class="avatar">
+            <img
+              src="https://docs.google.com/drawings/d/e/2PACX-1vRuZ0w0DNq_vjwg3rVSlIkOikQr73OR0rAaXDnnk5_M8yU84VmfWm-NZ3Er7ZtMpWfN0I-Rlr3V4ngQ/pub?w=481&h=721"
+              alt="Peter Liu profile photo" />
+          </div>
+        </div>
+        <div class="photo-bottom">
+          <div class="tags" aria-label="Expertise tags">
+            <span class="tag">Capital & Corporate Finance</span>
+            <span class="tag">Go-to-Market</span>
+            <span class="tag">ESG & Governance</span>
+            <span class="tag">International Expansion</span>
+          </div>
+          <a class="btn small" href="#contact">Connect</a>
+        </div>
+      </aside>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" aria-label="Experience">
+      <div class="section-head">
+        <div>
+          <h2>Experience</h2>
+          <p>精選經歷（可快速改成你 LinkedIn 的完整版本）</p>
+        </div>
+        <a class="btn small secondary" href="https://www.linkedin.com/in/peter-liu-9a05813b" target="_blank" rel="noopener">Full profile ↗</a>
+      </div>
+
+      <div class="grid" id="experienceGrid" aria-live="polite"></div>
+
+      <div class="item" style="margin-top:12px">
+        <h3>How to update the Experience section</h3>
+        <p>
+          你只要在本檔案底部的 <strong>DATA</strong> 區塊，編輯 <code>experience</code> 陣列（職稱、公司、期間、摘要、關鍵成果），
+          這個區塊就會自動更新。若你願意把 LinkedIn 的「職務清單」貼給我，我也可以幫你直接填好。
+        </p>
+      </div>
+    </section>
+
+    <!-- NEWS / ARTICLES -->
+    <section id="articles" aria-label="News and Articles">
+      <div class="section-head">
+        <div>
+          <h2>News / Articles</h2>
+          <p>媒體報導與文章發表（可用搜尋/分類快速篩選）</p>
+        </div>
+      </div>
+
+      <div class="toolbar" role="region" aria-label="Content filters">
+        <div class="left">
+          <label class="sr-only" for="q">Search</label>
+          <input id="q" class="input" type="search" placeholder="Search title / keywords…" />
+          <label class="sr-only" for="type">Type</label>
+          <select id="type" class="select" aria-label="Filter by type">
+            <option value="all">All</option>
+            <option value="news">News</option>
+            <option value="article">Article</option>
+          </select>
+        </div>
+        <div>
+          <span id="count" style="color:var(--muted); font-size:13px"></span>
+        </div>
+      </div>
+
+      <div class="grid" id="contentGrid" aria-live="polite"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-label="Contact">
+      <div class="section-head">
+        <div>
+          <h2>Contact</h2>
+          <p>合作 / 交流 / 媒體邀訪</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="item">
+          <h3>LinkedIn</h3>
+          <p>最快速的聯繫方式：在 LinkedIn 留訊息。</p>
+          <a class="link" href="https://www.linkedin.com/in/peter-liu-9a05813b" target="_blank" rel="noopener">
+            Open LinkedIn ↗
+          </a>
+        </div>
+
+        <div class="item">
+          <h3>Email</h3>
+          <p>
+            你可以把這裡的 Email 換成你的正式聯絡信箱（或改成聯絡表單）。
+          </p>
+          <a class="link" href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> Peter Liu. All rights reserved.</div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+        <a class="btn small secondary" href="#top">Back to top</a>
+        <a class="btn small secondary" href="https://www.linkedin.com/in/peter-liu-9a05813b" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // -----------------------
+    // DATA (edit this section)
+    // -----------------------
+    const DATA = {
+      experience: [
+        {
+          title: "Executive Leadership (Finance / Marketing / Sustainability / BD)",
+          org: "Add your primary organization",
+          location: "Taiwan · Asia",
+          period: "20XX – Present",
+          highlights: [
+            "Drive capital growth & financial strategy (WACC / ROIC / funding, etc.)",
+            "Strengthen brand leadership and go-to-market execution",
+            "Advance ESG strategy, governance, and stakeholder engagement",
+            "Lead international expansion and cross-border partnerships"
+          ]
+        },
+        {
+          title: "Business Development / Strategy",
+          org: "Add another organization or key role",
+          location: "Global",
+          period: "20XX – 20XX",
+          highlights: [
+            "Built partnerships and new revenue streams across international markets",
+            "Coordinated cross-functional teams to deliver complex programs"
+          ]
+        },
+        {
+          title: "Corporate Finance / Operations",
+          org: "Add a prior organization",
+          location: "APAC",
+          period: "20XX – 20XX",
+          highlights: [
+            "Improved profitability via disciplined planning and KPI management",
+            "Implemented governance and risk frameworks to support scaling"
+          ]
+        },
+        {
+          title: "Marketing / Growth",
+          org: "Add a prior organization",
+          location: "Global",
+          period: "20XX – 20XX",
+          highlights: [
+            "Built market positioning and content strategy",
+            "Improved pipeline and conversion through digital and partner channels"
+          ]
+        }
+      ],
+
+      // Curated content: your provided links (editable)
+      content: [
+        {
+          type: "news",
+          title: "正淩踏足AI機器人領域 全年營收年增2至3成",
+          outlet: "自由財經",
+          date: "2024-09-10",
+          url: "https://ec.ltn.com.tw/article/breakingnews/4796355",
+          summary: "報導聚焦正淩跨足 AI 機器人特殊線材、醫療連接器整合、800G/1.6T 高速傳輸、OAM 產能擴增與多元市場布局。"
+        },
+        {
+          type: "news",
+          title: "正淩AI機器人助攻營運 董座：明年營收目標成長3成",
+          outlet: "Yahoo奇摩新聞",
+          date: "2025-12-18",
+          url: "https://tw.news.yahoo.com/%E6%AD%A3%E6%B7%A9ai%E6%A9%9F%E5%99%A8%E4%BA%BA%E5%8A%A9%E6%94%BB%E7%87%9F%E9%81%8B-%E8%91%A3%E5%BA%A7-%E6%98%8E%E5%B9%B4%E7%87%9F%E6%94%B6%E7%9B%AE%E6%A8%99%E6%88%90%E9%95%B73%E6%88%90-074540099.html",
+          summary: "報導提到 AI 基礎設施、人形機器人與高階醫療耗材需求，以及泰國/台灣產能布局與成長展望。"
+        },
+        {
+          type: "article",
+          title: "人形機器人走入家庭還早？Figure 03 展示的現實與挑戰",
+          outlet: "Vocus",
+          date: "2025-10-19",
+          url: "https://vocus.cc/article/68f48f8dfd897800015c7980",
+          summary: "從 Figure 03 的家庭場景出發，分析安全、視覺感知、決策等面向，說明人形機器人走入家庭仍有距離。"
+        }
+      ]
+    };
+
+    // -----------------------
+    // Rendering
+    // -----------------------
+    const $ = (sel) => document.querySelector(sel);
+    const experienceGrid = $("#experienceGrid");
+    const contentGrid = $("#contentGrid");
+    const q = $("#q");
+    const type = $("#type");
+    const count = $("#count");
+
+    function el(tag, attrs = {}, children = []) {
+      const n = document.createElement(tag);
+      Object.entries(attrs).forEach(([k, v]) => {
+        if (k === "class") n.className = v;
+        else if (k.startsWith("on") && typeof v === "function") n.addEventListener(k.slice(2), v);
+        else n.setAttribute(k, v);
+      });
+      (Array.isArray(children) ? children : [children]).forEach(c => {
+        if (c == null) return;
+        if (typeof c === "string") n.appendChild(document.createTextNode(c));
+        else n.appendChild(c);
+      });
+      return n;
+    }
+
+    function renderExperience(){
+      experienceGrid.innerHTML = "";
+      DATA.experience.forEach(x => {
+        const meta = el("div", { class: "meta" }, [
+          el("span", {}, ["🏢 ", x.org]),
+          el("span", {}, ["📍 ", x.location]),
+          el("span", {}, ["🗓️ ", x.period]),
+        ]);
+        const ul = el("ul", { style: "margin:10px 0 0; padding-left:18px; color: var(--muted); font-size: 14px;" });
+        (x.highlights || []).forEach(h => ul.appendChild(el("li", { style:"margin:6px 0" }, h)));
+
+        const card = el("article", { class: "item" }, [
+          el("h3", {}, x.title),
+          meta,
+          ul
+        ]);
+        experienceGrid.appendChild(card);
+      });
+    }
+
+    function normalize(s){ return (s || "").toLowerCase(); }
+
+    function renderContent(){
+      const qq = normalize(q.value);
+      const tt = type.value;
+
+      const filtered = DATA.content
+        .filter(x => tt === "all" ? true : x.type === tt)
+        .filter(x => {
+          if (!qq) return true;
+          const hay = normalize([x.title, x.outlet, x.summary].join(" "));
+          return hay.includes(qq);
+        })
+        .sort((a,b) => (b.date || "").localeCompare(a.date || ""));
+
+      contentGrid.innerHTML = "";
+      filtered.forEach(x => {
+        const meta = el("div", { class: "meta" }, [
+          el("span", {}, [x.type === "news" ? "🗞️ News" : "✍️ Article"]),
+          el("span", {}, ["🏷️ ", x.outlet]),
+          el("span", {}, ["📅 ", x.date]),
+        ]);
+
+        const card = el("article", { class: "item" }, [
+          el("h3", {}, x.title),
+          meta,
+          el("p", {}, x.summary || ""),
+          el("a", { class:"link", href: x.url, target:"_blank", rel:"noopener" }, ["Read ↗"])
+        ]);
+
+        contentGrid.appendChild(card);
+      });
+
+      count.textContent = `${filtered.length} item(s)`;
+    }
+
+    // -----------------------
+    // Theme toggle
+    // -----------------------
+    const themeBtn = $("#themeBtn");
+    const THEME_KEY = "pl_theme";
+    function setTheme(mode){
+      document.documentElement.setAttribute("data-theme", mode);
+      themeBtn.setAttribute("aria-pressed", mode === "light" ? "true" : "false");
+      try { localStorage.setItem(THEME_KEY, mode); } catch(e){}
+    }
+    function initTheme(){
+      let saved = null;
+      try { saved = localStorage.getItem(THEME_KEY); } catch(e){}
+      if (saved) return setTheme(saved);
+      const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+      setTheme(prefersLight ? "light" : "dark");
+    }
+    themeBtn.addEventListener("click", () => {
+      const cur = document.documentElement.getAttribute("data-theme") || "dark";
+      setTheme(cur === "dark" ? "light" : "dark");
+    });
+
+    // -----------------------
+    // Init
+    // -----------------------
+    initTheme();
+    renderExperience();
+    renderContent();
+    q.addEventListener("input", renderContent);
+    type.addEventListener("change", renderContent);
+    $("#year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
