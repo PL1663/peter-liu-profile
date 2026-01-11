@@ -433,20 +433,11 @@
       <div class="section-head">
         <div>
           <h2>Experience</h2>
-          <p>精選經歷（可快速改成你 LinkedIn 的完整版本）</p>
         </div>
         <a class="btn small secondary" href="https://www.linkedin.com/in/peter-liu-9a05813b" target="_blank" rel="noopener">Full profile ↗</a>
       </div>
 
       <div class="grid" id="experienceGrid" aria-live="polite"></div>
-
-      <div class="item" style="margin-top:12px">
-        <h3>How to update the Experience section</h3>
-        <p>
-          你只要在本檔案底部的 <strong>DATA</strong> 區塊，編輯 <code>experience</code> 陣列（職稱、公司、期間、摘要、關鍵成果），
-          這個區塊就會自動更新。若你願意把 LinkedIn 的「職務清單」貼給我，我也可以幫你直接填好。
-        </p>
-      </div>
     </section>
 
     <!-- NEWS / ARTICLES -->
@@ -497,10 +488,7 @@
 
         <div class="item">
           <h3>Email</h3>
-          <p>
-            你可以把這裡的 Email 換成你的正式聯絡信箱（或改成聯絡表單）。
-          </p>
-          <a class="link" href="mailto:hello@example.com">hello@example.com</a>
+          <a class="link" href="mailto:peter.liu.pb@gmail.com">peter.liu.pb@gmail.com</a>
         </div>
       </div>
     </section>
@@ -519,47 +507,153 @@
     // DATA (edit this section)
     // -----------------------
     const DATA = {
-      experience: [
+            experience: [
+        // -------------------------
+        // Sales Experience
+        // -------------------------
         {
-          title: "Executive Leadership (Finance / Marketing / Sustainability / BD)",
-          org: "Add your primary organization",
-          location: "Taiwan · Asia",
-          period: "20XX – Present",
-          highlights: [
-            "Drive capital growth & financial strategy (WACC / ROIC / funding, etc.)",
-            "Strengthen brand leadership and go-to-market execution",
-            "Advance ESG strategy, governance, and stakeholder engagement",
-            "Lead international expansion and cross-border partnerships"
-          ]
-        },
-        {
-          title: "Business Development / Strategy",
-          org: "Add another organization or key role",
+          group: "Sales Experience",
+          title: "Global Business Development Leader",
+          org: "Nextronics Engineering Corp.",
           location: "Global",
-          period: "20XX – 20XX",
-          highlights: [
-            "Built partnerships and new revenue streams across international markets",
-            "Coordinated cross-functional teams to deliver complex programs"
+          period: "2019.02 – Present",
+          focus: "NPI • Strategic Partnerships • Market Expansion",
+          keyWins: [
+            "Built and expanded partner ecosystem across US / Europe / Asia",
+            "Led global NPI from concept → commercialization, accelerating adoption in key markets",
+            "Scaled distributor network & strategic accounts with cross-regional execution"
+          ],
+          scope: [
+            "Cross-cultural leadership across product / marketing / customer success",
+            "GTM alignment: customer needs → product roadmap → commercial outcomes"
           ]
         },
         {
-          title: "Corporate Finance / Operations",
-          org: "Add a prior organization",
-          location: "APAC",
-          period: "20XX – 20XX",
-          highlights: [
-            "Improved profitability via disciplined planning and KPI management",
-            "Implemented governance and risk frameworks to support scaling"
+          group: "Sales Experience",
+          title: "Associate VP, International Sales",
+          org: "CCP Connection Platform Inc.",
+          location: "Taiwan / Worldwide",
+          period: "2010.02 – 2014.03",
+          focus: "Global Sales Leadership • Channel Build-out • New Product Programs",
+          keyWins: [
+            "Led Taiwan + worldwide markets, managing 2 BUs (Connector / Testing)",
+            "Directed 3 project teams delivering next-gen connectors for leading global brands",
+            "Built channels & alliances in North America / Germany / Japan",
+            "Enabled entry into EV & medical device connectors through partnerships"
+          ],
+          scope: [
+            "Sales + program leadership with strong technical/customer interface",
+            "Multi-country channel strategy & long-cycle customer development"
           ]
         },
         {
-          title: "Marketing / Growth",
-          org: "Add a prior organization",
+          group: "Sales Experience",
+          title: "Territory Sales Manager",
+          org: "IBM",
+          location: "Taiwan",
+          period: "2005.02 – 2010.02",
+          focus: "Solution Selling • Territory Growth • Team Leadership",
+          keyWins: [
+            "Led territory team delivering total solution service; achieved 200% regional growth",
+            "IBM 2006 Key Transaction team win owner"
+          ],
+          scope: [
+            "Complex solution sales, account strategy, and closing large transactions"
+          ]
+        },
+
+        // -------------------------
+        // Management Experience
+        // -------------------------
+        {
+          group: "Management Experience",
+          title: "CFO",
+          org: "Nextronics Engineering Corp.",
+          location: "Taipei, Taiwan",
+          period: "2021.09 – Present",
+          focus: "Capital Markets • Global Tax • Treasury • FX Risk",
+          impact: [
+            "Completed 2 fundraising rounds in 3 years; NAV +33.64%, market cap 1.2x",
+            "Reduced effective tax rate 37% → 18% with global compliance"
+          ],
+          keyWins: [
+            "Implemented dynamic & natural hedging to mitigate 2025 FX volatility on margins/results",
+            "Strengthened resilience via forward contracts + multi-currency settlement"
+          ],
+          scope: [
+            "Company-wide financial strategy, risk management, capital structure optimization"
+          ]
+        },
+        {
+          group: "Management Experience",
+          title: "CSO",
+          org: "Nextronics Engineering Corp.",
           location: "Global",
-          period: "20XX – 20XX",
-          highlights: [
-            "Built market positioning and content strategy",
-            "Improved pipeline and conversion through digital and partner channels"
+          period: "2022.06 – Present",
+          focus: "ESG Strategy • Climate & Risk • Stakeholder Trust",
+          impact: [
+            "Led ESG roadmap aligned with GRI / SASB / TCFD / SDGs"
+          ],
+          keyWins: [
+            "Drove carbon reduction, renewable energy adoption, and climate risk assessments",
+            "Strengthened trust with investors/regulators/communities through proactive engagement",
+            "Embedded sustainability into product/supply chain/operations to create environmental + financial value"
+          ],
+          scope: [
+            "Cross-functional governance and execution across sustainability initiatives"
+          ]
+        },
+        {
+          group: "Management Experience",
+          title: "Marketing Executive",
+          org: "Nextronics Engineering Corp.",
+          location: "Global",
+          period: "2019.02 – Present",
+          focus: "Brand System • Digital Marketing • SEO • Thought Leadership",
+          impact: [
+            "Built new corporate identity since 2019: redesigned website + cohesive global brand system"
+          ],
+          keyWins: [
+            "Implemented data-driven digital & SEO strategy achieving top Google rankings for key terms",
+            "Positioned category leadership in AI high-speed interconnects / UAV / humanoid robotics",
+            "Aligned marketing with corporate objectives to support next-gen industry expansion"
+          ],
+          scope: [
+            "Brand narrative, content strategy, digital growth, stakeholder communications"
+          ]
+        },
+        {
+          group: "Management Experience",
+          title: "Regional General Manager (U.S.)",
+          org: "CCP Connection Platform Inc.",
+          location: "Santa Clara (Hybrid)",
+          period: "2015.09 – 2019.01",
+          focus: "U.S. Site Build • Cross-functional Leadership • Design-in Growth",
+          impact: [
+            "Established U.S. regional operations in Silicon Valley; built cross-functional team"
+          ],
+          keyWins: [
+            "Expanded across AI / EV / consumer electronics; secured multiple design-in wins",
+            "Directed NPI from concept → mass production with R&D/manufacturing/supply chain",
+            "Built strategic partnerships with ecosystem players, distributors, OEMs"
+          ],
+          scope: [
+            "Market entry strategy, team build, customer success, HQ ↔ U.S. alignment"
+          ]
+        },
+        {
+          group: "Management Experience",
+          title: "Strategy Business Planning Executive",
+          org: "CCP Connection Platform Inc.",
+          location: "Taiwan",
+          period: "2014.03 – 2015.09",
+          focus: "Corporate Strategy • Performance Management • Alliances/Investment",
+          keyWins: [
+            "Led corporate strategic planning and subsidiaries performance monitoring",
+            "Evaluated strategic alliances and investment opportunities to support growth roadmap"
+          ],
+          scope: [
+            "Strategy governance, KPI tracking, and deal evaluation"
           ]
         }
       ],
@@ -618,23 +712,62 @@
       return n;
     }
 
-    function renderExperience(){
+        function renderExperience(){
       experienceGrid.innerHTML = "";
-      DATA.experience.forEach(x => {
-        const meta = el("div", { class: "meta" }, [
-          el("span", {}, ["🏢 ", x.org]),
-          el("span", {}, ["📍 ", x.location]),
-          el("span", {}, ["🗓️ ", x.period]),
-        ]);
-        const ul = el("ul", { style: "margin:10px 0 0; padding-left:18px; color: var(--muted); font-size: 14px;" });
-        (x.highlights || []).forEach(h => ul.appendChild(el("li", { style:"margin:6px 0" }, h)));
 
-        const card = el("article", { class: "item" }, [
-          el("h3", {}, x.title),
-          meta,
-          ul
+      // Group experiences by DATA.experience[i].group
+      const grouped = DATA.experience.reduce((acc, item) => {
+        const g = item.group || "Experience";
+        (acc[g] ||= []).push(item);
+        return acc;
+      }, {});
+
+      Object.entries(grouped).forEach(([groupName, items]) => {
+        const header = el("div", { style: "grid-column: 1 / -1; margin: 6px 0 2px;" }, [
+          el("div", { style: "display:flex; align-items:center; gap:10px;" }, [
+            el("div", { style: "width:10px; height:10px; border-radius:999px; background: linear-gradient(135deg, var(--accent), var(--accent2)); box-shadow: 0 0 0 6px rgba(125,211,252,.10);" }),
+            el("h3", { style: "margin:0; font-size: 16px; letter-spacing:-.2px;" }, groupName),
+          ]),
+          el("div", { style: "margin-top:8px; height:1px; background: var(--border);" })
         ]);
-        experienceGrid.appendChild(card);
+        experienceGrid.appendChild(header);
+
+        items.forEach(x => {
+          const meta = el("div", { class: "meta" }, [
+            el("span", {}, ["🏢 ", x.org]),
+            el("span", {}, ["📍 ", x.location]),
+            el("span", {}, ["🗓️ ", x.period]),
+          ]);
+
+          const focus = x.focus ? el("p", { style: "margin: 0 0 10px; color: var(--muted); font-size: 14px;" }, [
+            el("strong", { style: "color: var(--text);" }, "Focus: "),
+            x.focus
+          ]) : null;
+
+          function listBlock(label, arr){
+            if (!arr || !arr.length) return null;
+            const ul = el("ul", { style: "margin:8px 0 0; padding-left:18px; color: var(--muted); font-size: 14px;" });
+            arr.forEach(h => ul.appendChild(el("li", { style:"margin:6px 0" }, h)));
+            return el("div", { style:"margin-top: 10px;" }, [
+              el("div", { style:"display:flex; align-items:center; gap:8px; color: var(--muted2); font-size: 12px; letter-spacing:.3px; text-transform: uppercase;" }, [
+                el("span", { style:"width:8px; height:8px; border-radius:999px; background: rgba(255,255,255,.12); border:1px solid var(--border);" }),
+                label
+              ]),
+              ul
+            ]);
+          }
+
+          const card = el("article", { class: "item" }, [
+            el("h3", {}, `${x.title} — ${x.org}`),
+            meta,
+            focus,
+            listBlock("Impact Highlights", x.impact),
+            listBlock("Key Wins", x.keyWins),
+            listBlock("Scope & Strengths", x.scope)
+          ].filter(Boolean));
+
+          experienceGrid.appendChild(card);
+        });
       });
     }
 
